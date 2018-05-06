@@ -1,0 +1,166 @@
+.bop {
+  background-color: lightgray;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 50px;
+  width: 1080px;
+  height: 75px;
+  transition: all 1s;
+  cursor: pointer;
+  margin-left: 400px;
+  margin-top: 220px;
+  outline: 0;
+}
+
+.bop span {
+  cursor: pointer;
+  display: inline-flex;
+  position: relative;
+  transition: 1s;
+}
+
+.bop span::after {
+  content: "\00bb";
+  position: relative;
+  opacity: 0;
+  top: 0;
+  right: -40px;
+  transition: 1s;
+}
+
+.bop:hover {
+  padding-right: 40px;
+}
+
+.bop:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
+.bcc {
+  background-color: lightgray;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 50px;
+  width: 1080px;
+  height: 75px;
+  transition: all 1s;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 400px;
+  outline: 0;
+}
+
+.bcc span {
+  cursor: pointer;
+  display: inline-flex;
+  position: relative;
+  transition: 1s;
+}
+
+.bcc span::after {
+  content: "\00bb";
+  position: relative;
+  opacity: 0;
+  top: 0;
+  right: -40px;
+  transition: 1s;
+}
+
+.bcc:hover span {
+  padding-right: 40px
+}
+
+.bcc:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
+.bcyo {
+  background-color: lightgray;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 50px;
+  width: 1080px;
+  height: 75px;
+  transition: all 1s;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 400px;
+  outline: 0;
+}
+
+.bcyo span {
+  cursor: pointer;
+  display: inline-flex;
+  position: relative;
+  transition: 1s;
+}
+
+.bcyo span::after {
+  content: "\00bb";
+  position: relative;
+  opacity: 0;
+  top: 0;
+  right: -40px;
+  transition: 1s;
+}
+
+.bcyo:hover span {
+  padding-right: 40px
+}
+
+.bcyo:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
+.bhome {
+  border: none;
+  background-color: transparent;
+  font-size: 19px;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.bhome:hover {
+  opacity: 1
+}
+
+.bau {
+  border: none;
+  background-color: transparent;
+  font-size: 19px;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.bau:hover {
+  opacity: 1
+}
+
+.bcon {
+  border: none;
+  background-color: transparent;
+  font-size: 19px;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.bcon:hover {
+  opacity: 1
+}
+
+.body {
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+}
+
+.bcentar {
+  width: 1920px;
+  height: 1080px;
+  align-content: center;
+}
